@@ -1,4 +1,5 @@
-# Exclure les vidéos du Git
+# Ignorer les fichiers vidéo pour réduire la taille du dépôt
+videos/
 *.mp4
 *.avi
 *.mov
@@ -6,7 +7,22 @@
 *.flv
 *.webm
 *.mkv
-videos/
-*.log
-.DS_Store
-Thumbs.db
+
+# Ignorer les fichiers audio
+*.mp3
+*.wav
+*.aac
+*.flac
+
+# Ignorer les gros fichiers (>10MB)
+*.zip
+*.rar
+*.7z
+*.tar.gz
+
+# Garder les fichiers essentiels du build
+!index.html
+!assets/
+!*.css
+!*.js
+!.htaccess*
