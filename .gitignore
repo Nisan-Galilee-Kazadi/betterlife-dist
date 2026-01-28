@@ -1,0 +1,12 @@
+# Exclure les vidéos du Git
+*.mp4
+*.avi
+*.mov
+*.wmv
+*.flv
+*.webm
+*.mkv
+videos/
+*.log
+.DS_Store
+Thumbs.db
